@@ -112,9 +112,9 @@ nav .profile-link a:hover {
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
     background-image: url(../assets/img/Cover.png);
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 78%;
+    background-size: cover;
 }
 .home-main section {
     display: grid;
