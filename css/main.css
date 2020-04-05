@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
 }
 
-/*Fuentes inportadas*/
+/*Fuentes importadas*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
 
 body {
@@ -111,7 +111,7 @@ nav .profile-link a:hover {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url(../assets/img/Cover.png);
+    background-image: url(https://i.imgur.com/wqTu2wf.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
