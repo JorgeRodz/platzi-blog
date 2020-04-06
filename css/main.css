@@ -293,3 +293,60 @@ footer p {
 .contact-divs .contact-left p, .contact-right p { /*Para quitarle un margen que tenian los parrafos*/
     margin-bottom: 0;
 }
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Perfil.html!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*---------------------------------------------------Main-------------------------------------------------------*/
+.perfil-proyectos-container {
+    margin-bottom: 7rem;
+}
+
+/*----------------perfil----------------*/
+.perfil-main-container {
+    width: 100%;
+    background-color: #e6e9ed;
+}
+.perfil-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 7rem 0;
+    display: flex;
+}
+.perfil-photo {
+    width: 30%;
+}
+.perfil-description {
+    margin-left: 4rem;
+}
+.perfil-description h1 {
+    margin-top: 0;
+}
+.perfil-description p {
+    line-height: 2.5rem;
+}
+
+/*--------------proyectos------------------*/
+.proyectos-main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.proyectos-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-top: 5rem;
+}
+.proyectos-container {
+    display: flex;
+    justify-content: space-between;
+}
+.proyectos-container .proyecto {
+    flex-basis: calc(33.3% - 1rem);
+}
+.proyectos-container .proyecto:not(.n1) {
+    margin-left: 8rem;
+}
+.proyectos-container .proyecto p {
+    line-height: 2.5rem;
+}
