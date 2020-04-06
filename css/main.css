@@ -206,11 +206,9 @@ footer p {
 }
 
 
-
 /*---------section .blogs-posts-container -----------*/
 .blogs-posts-container {
     padding: 0 5rem 4rem;
-    text-align: center;
 }
 .blogs-posts-container h3 {
     border-bottom: 1px solid #cdd2da;  
@@ -220,7 +218,7 @@ footer p {
 .blogs-posts-container .post-container {
     display: inline-block;
     padding-left: 1rem;
-    max-width: 30%;
+    max-width: 32%;
     margin-bottom: 5rem;
 }
 .blogs-posts-container .post-container p {
@@ -230,3 +228,68 @@ footer p {
     width: 100%;
 }
 
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Blog.html!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*---------------------------------------------------Main------------------------------------------------------*/
+
+/*--------------------------------*/
+.blogpost-img-container {
+    padding: 0 5rem 4rem ;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+
+/*--------------------------------*/
+.blogpost-main-container {
+    padding: 0 5rem 4rem;
+}
+.blogpost-main-container .container {
+    max-width: 70rem;
+}
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.blogpost-main-container section h1 {
+    font-size: 3.5rem;
+}
+.blogpost-main-container p {
+    line-height: 2.5rem;
+}
+
+/*--------------------------------*/
+.contact-main-container {
+    width: 100%;
+    background-color: #e6e9ed;
+    height: 20rem;
+}
+.contact-main-container-flex {
+    max-width: 1200px; /*Para establecer un max-width fijo;*/
+    margin: 0 auto; /*para centrar nuestro elemento en el contenedor padre*/
+    height: 100%; /*Para ocupar todo el height del contenedor padre*/
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-divs {
+    flex-basis: calc(45% - 1rem);
+    display: flex;
+    align-items: flex-end;
+}
+.contact-divs img {
+    width: 20%;
+}
+.contact-left , .contact-right {
+    margin-left: 1rem;
+}
+.contact-left a, .contact-right a {
+    font-size: 2rem;
+    border-bottom: 1px solid #000000;
+    font-family: 'Roboto mono', monospace;
+}
+.contact-divs .contact-left p, .contact-right p { /*Para quitarle un margen que tenian los parrafos*/
+    margin-bottom: 0;
+}
