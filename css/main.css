@@ -88,6 +88,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 9rem;
+    align-items: center;
 }
 nav .nav-logo-container {
     margin-left: 5rem;
@@ -137,8 +138,7 @@ footer p {
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
     background-image: url(https://i.imgur.com/wqTu2wf.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 .home-main section {

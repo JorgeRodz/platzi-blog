@@ -1,0 +1,150 @@
+@media (max-height:551px) {
+    body.home-body {
+        position: static;
+    }
+}
+
+@media (max-width:426px) { /*mobile L*/
+
+    body {
+        font-size: 1.4rem;
+    }
+
+    /*---------Medidas estandar para titulos-----------*/
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+        
+    }
+    h4 {
+        font-size: 1.8rem;
+    }
+    h1, h2, h3, h4 {
+        margin-bottom: 1rem;
+    }
+
+    /*----------------------------------------------Header global------------------------------------------------*/
+    header {
+        display: block;
+        height: 18rem;
+    }
+
+    /*--------------------------------*/
+    [class^="flaticon-"]::before {
+        margin: 0;
+    }
+    header .header-icons-container .icons {
+        justify-self: center;
+        margin: 0;
+    }
+
+    /*--------------------------------*/
+    nav {
+        grid-template-columns: 1fr;
+    }
+    nav .nav-logo-container, nav .profile-link {
+        justify-self: center;
+        margin: 0;
+    }
+    nav .nav-logo-container img {
+        margin: 0;
+    }
+
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! - index.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+    /*-------------------------------------------Main--------------------------------------------------------*/
+    .home-main section {
+        margin: 0 0 5rem 0;
+    }
+
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! - blogs.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+    /*-------------------------------------------Main------------------------------------------------------------*/
+   
+    /*-------------------------------------------*/
+    .blogs-main .blogs-news-container .grid-container.blogs-main-new {
+        grid-template-columns: 1fr;
+    }
+    .blogs-main .blogs-news-container .grid-container.blogs-main-new .blogs-news-info-container {
+        grid-column: 1;
+    }
+
+    /*-------------------------------------------*/
+    .blogs-posts-container .post-container {
+        display: block;
+        padding: 0;
+        max-width: none;
+        margin-bottom: 10rem;
+    }
+    .blogs-posts-container .post-container:last-child {
+        margin: 0;
+    }
+    .blogs-posts-container .post-container .blogs-post-article-title {
+        margin-bottom: 1rem;
+    }
+
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! - blog.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+    /*-------------------------------------------Main----------------------------------------------------------*/
+
+    /*--------------------------------*/
+    section.grid-container.blogpost-img-container {
+        padding: 0;
+    }
+
+    /*--------------------------------*/
+    section.contact-main-container {
+        height: auto; /*Para que el height se ajuste al contenido*/
+    }
+    .contact-main-container-flex {
+        display: block;
+    }
+    section div.contact-divs {
+        padding: 2rem;
+    }
+    section div.contact-divs a {
+        font-size: 1.5rem;
+    }
+    section div.contact-divs p {
+        font-size: 1.2rem;
+    }
+
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! - perfil.html - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+    /*-------------------------------------------Main----------------------------------------------------------*/
+
+    /*---------------Perfil-----------------*/
+    div.perfil-container {
+        display: block;
+        padding: 4rem 0rem 1rem;
+    }
+
+    div.perfil-container img {
+        display: block;
+        width: 100%;
+        padding: 0 10% 2rem;
+    }
+
+    /*---------------Proyectos-----------------*/
+    div.proyectos-container {
+        display: block;
+    }
+    .proyectos-container .proyecto:not(.n1) {
+        margin: 0 10% 4rem;
+    }
+    div.proyectos-container .proyecto.n1 {
+        margin: 0 10% 4rem;
+    }
+    div.proyectos-container .proyecto {
+        border-top: 1px solid #cdd2da;
+    }
+
+    div.proyectos-container .proyecto h4 {
+        margin-top: 1rem;
+    }
+}
