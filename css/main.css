@@ -104,7 +104,11 @@ nav .nav-logo-container {
 }
 nav .nav-logo-container img {
     width: 22rem;
-    margin-top: 1rem;
+    vertical-align: top;
+}
+nav .nav-logo-container img:hover {
+    border: 3px solid #92e9d3;
+    border-radius: 1rem;
 }
 nav .profile-link {
     display: flex;
